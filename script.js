@@ -1,0 +1,1 @@
+document.getElementById("downloadBtn").addEventListener("click",function(e){if(this.getAttribute("href")==="YOUR_APK_DOWNLOAD_LINK_HERE"){e.preventDefault();alert("APK link abhi set nahi kiya gaya hai. index.html me YOUR_APK_DOWNLOAD_LINK_HERE ko apne APK download link se replace karein.");}});
